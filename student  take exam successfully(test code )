@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include "ONline_EXAMINATION_SYSTEM"
+
+int main() {
+    printf("=== TEST CASE 05: Student Take Exam ===\n");
+
+    printf("Precondition:\n");
+    printf("- Exam exists\n");
+    printf("- Current time is within exam range\n\n");
+
+    printf("Steps:\n");
+    printf("1. Login as Student (ID: STUDENT-ID)\n");
+    printf("2. Select 'Take Exam'\n");
+    printf("3. Enter valid current time\n");
+    printf("4. Answer all questions\n\n");
+
+    printf("Expected Result:\n");
+    printf("- Exam starts successfully\n");
+    printf("- Questions appear\n");
+    printf("- Score displayed at end\n");
+
+    printf("\nSTATUS: Manual verification required\n");
+    return 0;
+}
