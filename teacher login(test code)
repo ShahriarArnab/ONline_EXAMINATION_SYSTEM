@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "ONline_EXAMINATION_SYSTEM"
+
+int main() {
+    printf("=== TEST CASE 02: Teacher Login ===\n");
+
+    printf("Steps:\n");
+    printf("1. Choose Login\n");
+    printf("2. Enter username\n");
+    printf("3. Enter numeric password\n");
+    printf("4. Select role: Teacher\n");
+    printf("5. Enter ID: TEACHER-ID\n\n");
+
+    printf("Expected Result:\n");
+    printf("- Teacher login successful\n");
+    printf("- Teacher menu is displayed\n");
+
+    printf("\nSTATUS: Manual verification required\n");
+    return 0;
+}
